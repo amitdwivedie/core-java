@@ -37,7 +37,17 @@ public class Generic {
          * assign1.add(new Animal()); assign2.add(new Dog1()); assign3.add(new
          * Cat1());
          */
+        
+        List<Object> test = new ArrayList<Object>();
+        test.add(new Animal());
+        test.add(new Dog("d"));
+        test.add(new Cat1());
+        addTest(test);
 
+    }
+
+    private static void addTest(List<?> test) {
+       //test.add(new Animal()); //adding is not allowed
     }
 
     /**

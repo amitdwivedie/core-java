@@ -7,7 +7,7 @@ package com.amitdwivedie.core.object.orientation;
 public class Static {
 
     int i = 0;
-    static int j = 0;
+    static int j = 1;
     public Static() {
         // cannot invoke instance variable and methods while constructor invocation.
         //this(i);

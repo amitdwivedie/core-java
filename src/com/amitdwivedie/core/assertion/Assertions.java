@@ -1,5 +1,9 @@
 package com.amitdwivedie.core.assertion;
 
+/**
+ * @author Amit Dwivedi
+ *
+ */
 public class Assertions {
 
     public static void main(String[] args) {

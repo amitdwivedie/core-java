@@ -1,5 +1,9 @@
 package com.amitdwivedie.core.assignment;
 
+/**
+ * @author Amit Dwivedi
+ *
+ */
 public class InitializationBlock extends SuperInitializationBlock{
 
     public InitializationBlock() {
